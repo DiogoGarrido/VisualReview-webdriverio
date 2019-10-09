@@ -1,0 +1,39 @@
+{
+  "name": "visualreview-webdriverio",
+  "version": "0.4.0-ppb.4",
+  "description": "Provides an API to send screenshots to VisualReview from Webdriverio tests.",
+  "homepage": "https://github.com/DiogoGarrido/VisualReview-webdriverio.git",
+  "author": "Diogo Garrido",
+  "maintainers": [
+    {
+      "name": "Diogo Garrido",
+      "email": "diogogarrido1990@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiogoGarrido/VisualReview-webdriverio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DiogoGarrido/VisualReview-webdriverio.git/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://github.com/DiogoGarrido/VisualReview-webdriverio.git/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "visualreview-webdriverio.js",
+    "visualreview-run.js",
+    "lib/"
+  ],
+  "main": "visualreview-webdriverio.js",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "q": "^1.1.2",
+    "request": "^2.51.0"
+  }
+}
